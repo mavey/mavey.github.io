@@ -1,0 +1,151 @@
+head {
+	top: 0
+	left: 0;
+	right: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+/*NAV BAR*/
+#fixed_nav {
+	position: fixed;
+	width: 100%;
+    height: 50px;
+    color: white;
+    background: #C90102;
+    outline: solid;
+    outline-color: black;
+    outline-width: 2px;
+	z-index: 8888888888;
+	padding: 5px;
+}
+
+#nav_container {
+	float: center;
+	position: relative;
+	margin: 0px 0px 30px;
+}
+
+.nav_item {
+    padding: 12px;
+    margin: 0px 50px 150px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav_item:hover {
+	color: black;
+	cursor: pointer;
+}
+
+/*NAV LOGO*/
+.nav_logo {
+	margin-left: 170px;
+	margin-bottom: 5px;
+	height: 53px;
+	display: inline-block;
+	float: left;
+}
+
+.nav_logo:hover {
+	-webkit-filter: invert(100%);
+	cursor: pointer;
+	color: #A10101;
+	font-weight: 900;
+}
+
+/*MAIN WELCOME*/
+.price_container{
+	margin: 0px 150px 0px;
+}
+
+
+/*HOW WOULD YOU LIKE TO LEARN CHINESE*/
+h1 {
+	font-weight: 800;
+	font-size: 20px;
+	margin: 0px;
+	border: black;
+	padding-bottom: 30px;
+	padding-top: 100px;
+}
+
+/*OPTIONS 1-6*/
+.content_container {
+	margin: 0px 150px 75px;
+	float: center;
+}
+
+#privatelessons_img {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(http://www.taiwanese-secrets.com/image-files/study-chinese-characters.jpg);
+	background-size: cover;
+	width: 650px;
+	height: 250px;
+	position: relative;
+	margin: auto;
+}
+
+#detail_img {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://scontent-sjc.xx.fbcdn.net/hphotos-xap1/t31.0-8/11187785_1614131838843842_870117126461323444_o.jpg);
+	background-size: cover;
+	width: 650px;
+	height: 250px;
+	position: relative;
+	margin: auto;
+}
+
+/*OPTION TITLE*/
+.item h2{
+	font-weight: 300;
+  	color: white;
+  	margin: 0;
+  	position: relative;
+  	top: 70px;
+  	font-size: 36px;
+}
+
+/*OPTION DESCRIPTION*/
+.item h3{
+	font-weight: 100;
+  	color: white;
+  	margin: 0;
+  	position: relative;
+  	top: 90px;
+  	font-size: 16px;
+  	margin: 20px;
+}
+
+/*FOOTER*/
+.footer {
+    list-style-type: none;
+    position: relative;
+}
+
+.foot-item {
+	padding: 12px 24px 12px;
+	font-size: 12px;
+	color: gray;
+}
+
+.foot-item:hover {
+	color: #C90102;
+	cursor: pointer;
+}
